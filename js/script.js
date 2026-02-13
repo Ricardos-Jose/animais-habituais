@@ -3,4 +3,4 @@ const slide = new SlideNav('.slide', '.holder');
 slide.init();
 
 slide.addArrow('.prev', '.next');
-slide.addControl();
+slide.addControl('.custom-control');
